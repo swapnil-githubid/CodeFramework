@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CodeFramework Automation Runs">
+	<parameter name="browser" value="firefox" />
+	<parameter name="env" value="envName" />
+	<listeners>
+		<listener class-name="TestListeners.TestListener" />
+	</listeners>
+
+	<test name="Test">
+		<classes>
+		    <class name="packageName.testClass"/>  
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
