@@ -1,0 +1,12 @@
+Manual Test Scenarios:
+----------------------
+
+1. Validate input range for w,x,y,z variables as per defined ranges.
+    i.   0<w<=20
+    ii.  x<=0 || x>w
+    iii. y<=0 || y>w
+    iv.  z<=0 || z>w
+    v.   (x+y+z)>w
+    
+2. Validate letters used for creating word meets criteria of defined ranges.
+3. Validate if the words created using parameters x,y,z,w is a palindrome or not.
