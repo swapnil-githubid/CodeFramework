@@ -2,14 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="CodeFramework Automation Runs">
 	<parameter name="browser" value="firefox" />
-	<parameter name="env" value="envName" />
+	<parameter name="platform" value="local" />
+	<parameter name="env" value="STG" />
 	<listeners>
 		<listener class-name="TestListeners.TestListener" />
 	</listeners>
 
 	<test name="Test">
 		<classes>
-		    <class name="packageName.testClass"/>  
+		    <class name="com.test.ProblemStatements.ProblemStatement002"/>  
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
